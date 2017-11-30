@@ -1,4 +1,10 @@
-# Simulation and Performance Evaluation Assignment 2
+# Simulation and Performance Evaluation Assignment 1
+
+#### Install
+
+```sh
+git clone https://github.com/Naramsim/SPE-Assignment-1.git
+```
 
 #### Run
 
