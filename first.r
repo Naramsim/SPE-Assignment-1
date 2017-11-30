@@ -112,9 +112,9 @@ plot.gaussian <- function(data, bin) {
 #----------#
 
 doPlot = TRUE # whether the data is plotted or not
-doAll = FALSE # whether the linear fit is plotted for a single object or all of them (irrelevant if doPlot == FALSE)
+doAll = TRUE # whether the linear fit is plotted for a single object or all of them (irrelevant if doPlot == FALSE)
 objectToPlot = 6 # the object of which to plot the D_i_max distribution and the alpha_i fit (the latter in case doAll == FALSE)
-doSplit = TRUE # whether the objects noise sets are splitted in two disjointed subsets to calculate sigma or not
+doSplit = FALSE # whether the objects noise sets are splitted in two disjointed subsets to calculate sigma or not
 
 significantDigits = 5 # significant digits kept throughout the computation
 zalphatwos = list() # list of z_a/2 values for given confidence rates

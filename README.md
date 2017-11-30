@@ -12,12 +12,11 @@ docker-compose up -d
 ##### With R
 ```sh
 docker-compose up -d
-docker exec -it first_studio_1 bash
+docker exec -it rstudio bash
 Rscript first.r
 ```
 
 ##### R already installed
 ```sh
-# move first.t in Rscript HOME | modify first.r:4 and set the working directory
 Rscript first.r
 ```
